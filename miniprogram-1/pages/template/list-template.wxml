@@ -1,0 +1,23 @@
+<template name="listTemp">
+  <view class="tmp-container">
+    <view class="avatar-date">
+      <image src="{{avatar}}" />
+      <text>{{date}}</text>
+    </view>
+
+    <view class="company">
+      <text >{{title}}</text>
+      <image src="{{detail_img}}" />
+      <text class="content">{{detail_content}}</text>
+    </view>
+   
+    <view class="collection-love" >
+      <text class="iconfont icon-star" />
+      <text>{{love_count}}</text>
+      <text class="iconfont icon-eye" />
+      <text>{{attention_count}}</text>
+    </view>
+  </view>
+</template>
+
+<!-- 一行一行的包，好用flex -->

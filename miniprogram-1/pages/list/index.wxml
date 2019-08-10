@@ -1,0 +1,18 @@
+<import src="/pages/template/list-template.wxml" />
+<view>
+  <swiper indicator-dots indicator-active-color="gray" autoplay="true" duration="500">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item  catchtap="toDetail"  data-index="{{index}}" >
+        <image src="{{item}}" class="carousel"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+ <block wx:for="{{listArr}}" wx:key="{{index}}">
+ <!-- 下面传入对应详情页需要的索引 -->
+  <view catchtap="toDetail" data-index="{{index}}">   
+    <template is="listTemp" data="{{...item}}"/>
+    <!-- 利用扩展运算符遍历对象的属性 -->
+  </view>
+ </block> 
+</view>

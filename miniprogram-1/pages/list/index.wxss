@@ -1,0 +1,5 @@
+/* pages/list/index.wxss */
+@import '/pages/template/list-template.wxss';
+.carousel{
+  width: 100%;
+}

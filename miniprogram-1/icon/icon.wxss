@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1338254_l49zr0zl2y8.eot?t=1565152724779'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1338254_l49zr0zl2y8.eot?t=1565152724779#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANkAAsAAAAAB2wAAAMYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCWII4ATYCJAMMCwgABCAFhG0HNBt8BsgOJSGRwBBhGwJAPHztx+/c3f3ijlgVm04SkeSVSvovNqJ4Zeh4NHk/2eW/DcQJK7ASuDd78NxEldjaVVIB+F2k6ndg/X3i3mnTEpgPKJc5pvapCzAOKKC9sQ0ScIEk6A1jN1EexGkCrSZ5YQ7Ep+aCjgJMCsQNIb8KdFImpaY6NAuNJSuLqGhqTg/SDYB1/v34DAGhQ9KQgZkHL8XxIPId8/U4N9X3lVIS8XgOaOvI2AAU4lSp6wj1MLWBulZHpVFf3KgIaaxoXcNFrqIR/uGRBNEIVLaDZSmdeMdgUaw+FiVnfVIGjWjCeaACGP2elZUxC8bMwKDlcuHQsnVBXn+v9aBdccHghGd18UCPRWHl3JglO1j4hpZ5uX22efkDFrkFo1b5BeLb2+G+Jsvhu7yHh7HBZquR+8L7+137DwV3dzt3botPbqen7+LOH+Zm7nPX9pr3e3ebdpBGpLH/yc+v1Z+KNeU9u6R6PqzdTJs5WEmZRvdGwg/qzaZvosx+yY7fwRmyXx/NVgeu/II+n9x7eMB8rt9ylebne8L/9V+dfx7jEs0S4xg/atCnvd7Ufh00Nn47uKUd5hUcZmY6OGDNIU+FvnXfHIDnQSVA/VL9UN0WgCJVP+U3Rh59uVlhHPpPp62AN4raWylUv9SA9ulmCU38C8Qtm4orBeZcbBEW+e5seyIgIQp0rxrw9Xrvrxu4zUxoNhAjaTKBrNk8udA3oEGbHWjUbDdarUlY36YPoS5KC1a1CwjdVpB0eois2xdyob+hwaBvaNQd6mh1KMx3bLMYQr0Ygqso5qHqBiRk5TIOWaleUJ2N+TWSKpKUcmY+JiphFPn7+GWzCViGyRhzVLX8AEo5xBG5FMUL52GJRI4URC7CLPURUKoI9vXlyl7kw8qloGc/AqtCYTxItQaIEEtOhqPtKb3c57NhfDUkqpAaQoc3H0aoCLtH/Pnwa0FOUMlaEa7lEpVafAEoioNwCDkpJF5wYBKYkkMU5cNEMBblQ9AjoRDMV2rFtVX5zK+RPt8OaAUOyZEiR1Fu0SqijhswAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_1338254_l49zr0zl2y8.woff?t=1565152724779') format('woff'),
+  url('//at.alicdn.com/t/font_1338254_l49zr0zl2y8.ttf?t=1565152724779') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1338254_l49zr0zl2y8.svg?t=1565152724779#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e6c3";
+}
+
+.icon-eye:before {
+  content: "\e601";
+}

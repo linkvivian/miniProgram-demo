@@ -1,0 +1,12 @@
+<view class='wrapper'>
+  <image src='{{userInfo.avatarUrl}}' class='avatar'></image>
+  <text >{{userInfo.nickName}}</text>
+  <button 
+    open-type="getUserInfo" 
+    class='login-button' 
+    bindgetuserinfo="onGotUserInfo"
+    style='display: {{isShow? "block": "none"}}'>登录
+  </button>
+  <!-- 获取用户信息，可以从bindgetuserinfo回调中获取到用户信息 -->
+  <button class='go-button' catchtap='bindViewTap'>开启小程序之旅</button>
+</view>
